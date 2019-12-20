@@ -20,6 +20,8 @@ window.Vue = require('vue');
 // Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('dropdown-menu', require('./components/Dropdown.vue').default);
 Vue.component('file-upload', require('./components/FileUpload.vue').default);
+Vue.component('tabs', require('./components/Tabs.vue').default);
+Vue.component('tab', require('./components/Tab.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
