@@ -53,6 +53,12 @@
                 </tabs>
             </div>
         </section>
+        <section>
+            <h2 class="text-l">User Notifications</h2>
+            <div class="bg-gray-400 w-64 h-32 flex items-center justify-center">
+                <user-notifications></user-notifications>
+            </div>
+        </section>
     </div>
 
     <script src="{{asset('/js/app.js')}}" crossorigin="anonymous"></script>
