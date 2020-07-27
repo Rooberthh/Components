@@ -31,7 +31,6 @@
 
         mounted() {
             this.tabs = this.$children;
-            console.log(this.$children);
             this.setInitialActiveTab();
         },
         watch: {

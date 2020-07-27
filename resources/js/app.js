@@ -23,6 +23,8 @@ Vue.component('file-upload', require('./components/FileUpload.vue').default);
 Vue.component('tabs', require('./components/Tabs.vue').default);
 Vue.component('tab', require('./components/Tab.vue').default);
 Vue.component('user-notifications', require('./components/UserNotifications.vue').default);
+Vue.component('color-picker', require('./components/ColorPicker.vue').default);
+Vue.component('spinner', require('./components/Spinner.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

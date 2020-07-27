@@ -14,7 +14,7 @@
 <body>
     <div id="app" class="flex flex-col items-center p-8">
         <h1 class="text-xl font-bold mb-8">Components</h1>
-        <section>
+        <section class="my-4">
             <h2 class="text-xl">Context-menu</h2>
             <div class="bg-gray-400 w-64 h-32 flex items-center justify-center">
                 <dropdown-menu>
@@ -29,15 +29,13 @@
                 </dropdown-menu>
             </div>
         </section>
-        <section class="my-16">
-            <h2 class="text-xl">File Upload</h2>
-        <section>
+        <section class="my-4">
             <h2 class="text-l">File Upload</h2>
             <div class="bg-gray-400 w-64 h-32 flex items-center justify-center">
                 <file-upload name="image_path"></file-upload>
             </div>
         </section>
-        <section>
+        <section class="my-4">
             <h2 class="text-l">Tabs</h2>
             <div class="bg-gray-400 w-64 h-32 flex items-center justify-center">
                 <tabs>
@@ -55,10 +53,22 @@
                 </tabs>
             </div>
         </section>
-        <section>
+        <section class="my-4">
             <h2 class="text-l">User Notifications</h2>
             <div class="bg-gray-400 w-64 h-32 flex items-center justify-center">
                 <user-notifications></user-notifications>
+            </div>
+        </section>
+        <section class="my-4">
+            <h2 class="text-l">Color picker</h2>
+            <div class="bg-gray-400 w-64 h-32 flex items-center justify-center">
+                <color-picker></color-picker>
+            </div>
+        </section>
+        <section class="my-4">
+            <h2 class="text-l">Spinner</h2>
+            <div class="bg-gray-400 w-64 h-32 flex items-center justify-center">
+                <spinner></spinner>
             </div>
         </section>
     </div>
