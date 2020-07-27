@@ -15,7 +15,7 @@
     <div id="app" class="flex flex-col items-center p-8">
         <h1 class="text-xl font-bold mb-8">Components</h1>
         <section>
-            <h2 class="text-l">Context-menu</h2>
+            <h2 class="text-xl">Context-menu</h2>
             <div class="bg-gray-400 w-64 h-32 flex items-center justify-center">
                 <dropdown-menu>
                     <template v-slot:trigger>
@@ -25,13 +25,12 @@
                     <li><a href="#" class="dropdown-item hover:bg-gray-200">Edit</a></li>
                     <li><a href="#" class="dropdown-item hover:bg-gray-200">Delete</a></li>
                     <li><a href="#" class="dropdown-item hover:bg-gray-200">Report</a></li>
+
                 </dropdown-menu>
             </div>
         </section>
-        <hr>
-        <section>
-
-            <h2 class="text-l">File Upload</h2>
+        <section class="my-16">
+            <h2 class="text-xl">File Upload</h2>
             <div class="bg-gray-400 w-64 h-32 flex items-center justify-center">
                 <file-upload name="image_path"></file-upload>
             </div>
