@@ -31,8 +31,34 @@
         </section>
         <section class="my-16">
             <h2 class="text-xl">File Upload</h2>
+        <section>
+            <h2 class="text-l">File Upload</h2>
             <div class="bg-gray-400 w-64 h-32 flex items-center justify-center">
                 <file-upload name="image_path"></file-upload>
+            </div>
+        </section>
+        <section>
+            <h2 class="text-l">Tabs</h2>
+            <div class="bg-gray-400 w-64 h-32 flex items-center justify-center">
+                <tabs>
+                    <tab title="First" active>
+                        <p>First tab</p>
+                    </tab>
+
+                    <tab title="Second">
+                        <p>Second tab</p>
+                    </tab>
+
+                    <tab title="Third">
+                        <p>Third tab</p>
+                    </tab>
+                </tabs>
+            </div>
+        </section>
+        <section>
+            <h2 class="text-l">User Notifications</h2>
+            <div class="bg-gray-400 w-64 h-32 flex items-center justify-center">
+                <user-notifications></user-notifications>
             </div>
         </section>
     </div>
